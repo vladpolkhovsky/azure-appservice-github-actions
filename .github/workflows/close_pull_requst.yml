@@ -25,3 +25,4 @@ jobs:
         if: ${{ failure() }}
         with:
           comment: "Test or build not passed."
+          github_token: ${{ secrets.TOKEN_GITHUB }}
