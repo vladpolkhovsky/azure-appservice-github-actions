@@ -6,7 +6,11 @@ on:
 
 jobs:
   check_pull_requst:
+
+    name: Close if test not passed
+
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
         with:
