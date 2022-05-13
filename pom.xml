@@ -8,14 +8,18 @@
         <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>by.bsu.vpolkhovsky</groupId>
     <artifactId>azure-appservice-github-actions</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>azure-appservice-github-actions</name>
     <description>azure-appservice-github-actions</description>
+
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
