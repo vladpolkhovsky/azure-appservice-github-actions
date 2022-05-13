@@ -14,7 +14,7 @@ public class DefaultController {
 
     public static final String DEFAULT_MESSAGE_VALUE = "undefined";
 
-    public static final String RESPONSE_FORMAT = "message=%s";
+    public static final String RESPONSE_FORMAT = "msg=%s";
 
     public static String format(String format, Object... args) {
         return String.format(format, args);
