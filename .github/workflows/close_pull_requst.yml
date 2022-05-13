@@ -1,8 +1,8 @@
 name: Close Pull Request
 
 on:
-  pull_request_target:
-    types: [opened]
+  pull_request:
+    types: [ opened, reopened ]
 
 jobs:
   check_pull_requst:
